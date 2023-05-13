@@ -23,4 +23,5 @@ https://www.figma.com/file/4jsCcUK4L5HD4Mvvvmlh3k/Untitled?type=design&node-id=5
 # Trello
 https://trello.com/invite/b/ukFn3CNl/ATTI0741a679adb3bedf668e92cc54b5fc44670DCFDC/software-development-web-app
 
-# Backend Repo Link
+# Frontend Repo Link
+[Front End Link](https://github.com/sabrinaaziz13/MovieDB-Frontend/blob/main/README.md)
