@@ -4,7 +4,8 @@ A user friendly Movie Database including MERN-stack application using an API cal
 # Technologies Used
  - React 
  - Express
- - Node 
+ - Node
+ - Bootstrap 
  - HTML/CSS 
  - JSX 
  - Render 
