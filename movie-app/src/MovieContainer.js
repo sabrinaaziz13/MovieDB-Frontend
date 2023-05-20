@@ -15,6 +15,7 @@ const MovieContainer = ({
   const handleClose = () => setShow(false)
 
   return (
+    <main>
     <div className="card text-center bg-secondary mb-3">
       <div className="card-body">
         <img className="card-img-top" src={API_IMG + poster_path} />
@@ -44,6 +45,7 @@ const MovieContainer = ({
         </div>
       </div>
     </div>
+    </main>
   )
 }
 

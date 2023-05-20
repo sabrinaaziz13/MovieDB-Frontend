@@ -19,10 +19,11 @@ function App() {
 
   return (
     <div className="container">
-        <div className="grid">
+      <div className="grid">
         {movies.map((movieReq) => (
-        <MovieContainer key={movieReq.id} {...movieReq} />))}
-        </div>
+          <MovieContainer key={movieReq.id} {...movieReq} />
+        ))}
+      </div>
     </div>
   )
 }
