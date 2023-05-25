@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@storybook/preset-typescript": "^3.0.0"
+  }
+}

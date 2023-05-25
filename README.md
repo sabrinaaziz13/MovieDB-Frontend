@@ -26,3 +26,6 @@ https://trello.com/invite/b/ukFn3CNl/ATTI0741a679adb3bedf668e92cc54b5fc44670DCFD
 
 # Backend Repo Link
 [Back End Link](https://github.com/sabrinaaziz13/MovieDB-Backend/blob/main/README.md)
+
+# Additional Sources
+https://developer.themoviedb.org/docs/getting-started
