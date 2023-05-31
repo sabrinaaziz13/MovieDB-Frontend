@@ -9,13 +9,12 @@ function Header() {
         <Navbar bg="dark" variant="dark">
           <Container>
             <Nav className="me-auto">
-            <Navbar.Brand href="#home">
+              <Navbar.Brand href="#home">
                 <img src={HeaderLogo} height="100" />
               </Navbar.Brand>
-              <Navbar.Brand href="/home">Movie Lovers</Navbar.Brand>
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#trending">Trending</Nav.Link>
-              <Nav.Link href="#favorites">Favorites</Nav.Link>
+              <Navbar.Brand href="/">Movie Lovers</Navbar.Brand>
+              <Nav.Link href="/trending">Trending</Nav.Link>
+              <Nav.Link href="/favorites">Favorites</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
