@@ -5,11 +5,12 @@ import Home from './components/Home'
 import MovieAPI from './components/MovieAPI'
 import ShowMovie from './components/ShowMovie'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
-    <Header/>
+      <Header />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,6 +18,7 @@ function App() {
           <Route path="/details/:id" element={<ShowMovie />} />
         </Routes>
       </div>
+      <Footer />
     </>
   )
 }
