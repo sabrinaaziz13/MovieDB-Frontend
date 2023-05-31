@@ -1,11 +1,9 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import {
-  Navbar,
-  Container,
-  Nav,
-} from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import MovieAPI from './components/MovieAPI'
+import ShowMovie from './components/ShowMovie'
 
 function App() {
   return (
@@ -21,7 +19,10 @@ function App() {
         </Container>
       </Navbar>
       <div>
-        <MovieAPI />
+        <Routes>
+          <Route path="/" element={<MovieAPI />} />
+          <Route path="/details/:id" element={<ShowMovie />} />
+        </Routes>
       </div>
     </>
   )
