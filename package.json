@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "@storybook/preset-typescript": "^3.0.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.11.2",
+    "styled-components": "^5.3.11"
   }
 }
