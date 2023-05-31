@@ -11,7 +11,6 @@ function MovieAPI() {
     fetch(API_URL)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
         setMovies(data.results)
       })
   }
@@ -19,8 +18,7 @@ function MovieAPI() {
   useEffect(() => {
     fetching()
   }, [])
-  console.log(movies)
-
+  
   function loaded() {
     return (
       <div className="container">

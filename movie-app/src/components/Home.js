@@ -11,7 +11,6 @@ function Home() {
     fetch(API_URL)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
         setMovies(data.results)
       })
   }
@@ -19,7 +18,6 @@ function Home() {
   useEffect(() => {
     fetching()
   }, [])
-  console.log(movies)
 
 function loaded() {
   return (
