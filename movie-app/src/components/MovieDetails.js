@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 // const API_ID = `https://api.themoviedb.org/3/movie/${id}`
 
 const MovieDetails = (props) => {
-  
   const API_IMG = 'https://image.tmdb.org/t/p/w500/'
 
   return (

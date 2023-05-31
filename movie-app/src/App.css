@@ -25,6 +25,14 @@ body {
   justify-content: center;
 } 
 
-h2{
+h2 {
   background-color: aqua;
+}
+
+.card-body {
+  background-color: #A4BAB7;
+}
+
+.nav {
+  outline: auto;
 }

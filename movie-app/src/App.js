@@ -8,6 +8,7 @@ import ShowMovie from './components/ShowMovie'
 function App() {
   return (
     <>
+    <div className="nav">
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Movie Db App</Navbar.Brand>
@@ -18,6 +19,7 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
+      </div>
       <div>
         <Routes>
           <Route path="/" element={<MovieAPI />} />
