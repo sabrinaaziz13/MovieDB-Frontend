@@ -10,7 +10,6 @@ A user friendly Movie Database including MERN-stack application using an API cal
 - Bootstrap
 - HTML/CSS
 - JSX
-- Render
 - Netlify
 
 # User Stories
