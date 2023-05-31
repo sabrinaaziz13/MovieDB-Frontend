@@ -7,17 +7,12 @@ body {
   text-decoration: none;
   list-style-type: none;
   outline: none;
-  /* background-image: url("movieimg3.jpeg");
-  background-size: contain; */
+  background-color: black;
 }
 
 .container{
   width: 100%;
-  margin: 1em auto;
-  /* background-color: black; */
   background-color: rgb(94, 179, 186);
-  /* background-color: rgb(115, 189, 196); */
-  /* background-color: #A4BAB7; */
 }
 
 .grid{
@@ -29,28 +24,37 @@ body {
 } 
 
 h2 {
-  /* background-color: black; */
   background-color: rgb(94, 179, 186);
-  /* background-color: rgb(115, 189, 196); */
-  /* background-color: #A4BAB7; */
+
 }
 
 .card-body {
   text-align: center;
   margin: auto;
+  padding: 20px;
   background-color: black;
   color: white
-  /* background-color: rgb(115, 189, 196); */
-  /* background-color: #A4BAB7; */
 }
 
-.nav {
+.card-img-top {
+  object-fit: contain;
+}
+
+.navbar {
   outline: auto;
-  padding: 0.2rem;
-  /* background-color: black; */
+  padding: 0.5rem;
   background-color: rgb(94, 179, 186);
-  /* background-color: rgb(115, 189, 196); */
-  /* background-color: #A4BAB7; */
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-li {
+  margin: 0 20px;
 }
 
 .text-center {
@@ -65,7 +69,9 @@ h2 {
 
 .footer {
   width: 100%;
-  height: 400px;  
+  height: 200px; 
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .footer img {

@@ -1,22 +1,26 @@
 import React from 'react'
 import HeaderLogo from '../assets/moviedb2.png'
-import { Navbar, Container, Nav } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 
 function Header() {
   return (
     <>
-      <div className="nav">
+      <div className="navbar">
         <Navbar bg="dark" variant="dark">
-          <Container>
-            <Nav className="me-auto">
-              <Navbar.Brand href="#home">
-                <img src={HeaderLogo} height="100" />
-              </Navbar.Brand>
-              <Navbar.Brand href="/">Movie Lovers</Navbar.Brand>
-              <Nav.Link href="/trending">Trending</Nav.Link>
-              <Nav.Link href="/favorites">Favorites</Nav.Link>
-            </Nav>
-          </Container>
+          <Nav className="nav-ul">
+            <Navbar.Brand className="logo" href="/">
+              <img src={HeaderLogo} height="100" />
+            </Navbar.Brand>
+            <Navbar.Brand className="nav-li" href="/">
+              Movie Lovers
+            </Navbar.Brand>
+            <Nav.Link className="nav-li" href="/trending">
+              Trending
+            </Nav.Link>
+            <Nav.Link className="nav-li" href="/favorites">
+              Favorites
+            </Nav.Link>
+          </Nav>
         </Navbar>
       </div>
     </>
