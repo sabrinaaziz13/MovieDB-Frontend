@@ -14,7 +14,9 @@ body {
 .container{
   width: 100%;
   margin: 1em auto;
-  background-color: #A4BAB7;
+  /* background-color: black; */
+  background-color: rgb(115, 189, 196);
+  /* background-color: #A4BAB7; */
 }
 
 .grid{
@@ -26,17 +28,23 @@ body {
 } 
 
 h2 {
-  background-color: #A4BAB7;
+  /* background-color: black; */
+  background-color: rgb(115, 189, 196);
+  /* background-color: #A4BAB7; */
 }
 
 .card-body {
-  background-color: #A4BAB7;
+  /* background-color: black; */
+  /* background-color: rgb(115, 189, 196); */
+  /* background-color: #A4BAB7; */
 }
 
 .nav {
   outline: auto;
   padding: 0.2rem;
-  background-color: #A4BAB7;
+  /* background-color: black; */
+  background-color: rgb(115, 189, 196);
+  /* background-color: #A4BAB7; */
 }
 
 .text-center {

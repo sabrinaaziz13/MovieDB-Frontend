@@ -1,14 +1,17 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import { Navbar, Container, Nav } from 'react-bootstrap'
+// import { Navbar, Container, Nav } from 'react-bootstrap'
+import Home from './components/Home'
 import MovieAPI from './components/MovieAPI'
 import ShowMovie from './components/ShowMovie'
+import Header from './components/Header'
 
 function App() {
   return (
     <>
-    <div className="nav">
+    <Header/>
+    {/* <div className="nav">
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Movie Db App</Navbar.Brand>
@@ -19,10 +22,11 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-      </div>
+      </div> */}
       <div>
         <Routes>
-          <Route path="/" element={<MovieAPI />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/movies" element={<MovieAPI />} />
           <Route path="/details/:id" element={<ShowMovie />} />
         </Routes>
       </div>
