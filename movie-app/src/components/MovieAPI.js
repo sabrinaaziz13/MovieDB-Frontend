@@ -19,21 +19,22 @@ function MovieAPI() {
   useEffect(() => {
     fetching()
   }, [])
-console.log(movies)
+  console.log(movies)
 
   function loaded() {
     return (
       <div className="container">
         <div className="grid">
           {movies.map((movieReq, idx) => (
-            <div key={idx}><MovieDetails
-              id={movieReq.id}
-              title={movieReq.title}
-              poster_path={movieReq.poster_path}
-              vote_average={movieReq.vote_average}
-              release_date={movieReq.release_date}
-              overview={movieReq.overview}
-            />
+            <div key={idx}>
+              <MovieDetails
+                id={movieReq.id}
+                title={movieReq.title}
+                poster_path={movieReq.poster_path}
+                vote_average={movieReq.vote_average}
+                release_date={movieReq.release_date}
+                overview={movieReq.overview}
+              />
             </div>
           ))}
         </div>
