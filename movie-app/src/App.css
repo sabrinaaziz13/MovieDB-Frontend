@@ -38,7 +38,7 @@ h2 {
 .card-body {
   text-align: center;
   margin: auto;
-  background-color: black;
+  /* background-color: black; */
   color: white
   /* background-color: rgb(115, 189, 196); */
   /* background-color: #A4BAB7; */
