@@ -23,17 +23,17 @@ function ShowMovie() {
   }
 
   return (
-    <div className="card-body">
-      <h3>{movie.title}</h3>
+    <div className="movie">
+      <h1>{movie.title}</h1>
       <img
         className="card-img-top"
         src={API_IMG + movie.poster_path}
         alt={movie.title}
       />
-      <h4>Rating: {movie.vote_average}</h4>
-      <h4>Release Date: {movie.release_date}</h4>
-      <br></br>
-      <h4>Overview:</h4>
+      <h3>Rating: {movie.vote_average}</h3>
+      <h3>Release Date: {movie.release_date}</h3>
+
+      <h3>Overview:</h3>
       <p>{movie.overview}</p>
     </div>
   )

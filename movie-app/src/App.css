@@ -31,13 +31,18 @@ h2 {
 .card-body {
   text-align: center;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   background-color: black;
   color: white
 }
 
-.card-img-top {
-  object-fit: contain;
+.movie {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white
 }
 
 .navbar {
