@@ -15,7 +15,8 @@ body {
   width: 100%;
   margin: 1em auto;
   /* background-color: black; */
-  background-color: rgb(115, 189, 196);
+  background-color: rgb(94, 179, 186);
+  /* background-color: rgb(115, 189, 196); */
   /* background-color: #A4BAB7; */
 }
 
@@ -29,12 +30,16 @@ body {
 
 h2 {
   /* background-color: black; */
-  background-color: rgb(115, 189, 196);
+  background-color: rgb(94, 179, 186);
+  /* background-color: rgb(115, 189, 196); */
   /* background-color: #A4BAB7; */
 }
 
 .card-body {
-  /* background-color: black; */
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  color: white
   /* background-color: rgb(115, 189, 196); */
   /* background-color: #A4BAB7; */
 }
@@ -43,7 +48,8 @@ h2 {
   outline: auto;
   padding: 0.2rem;
   /* background-color: black; */
-  background-color: rgb(115, 189, 196);
+  background-color: rgb(94, 179, 186);
+  /* background-color: rgb(115, 189, 196); */
   /* background-color: #A4BAB7; */
 }
 

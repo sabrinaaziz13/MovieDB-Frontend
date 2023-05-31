@@ -31,9 +31,9 @@ function ShowMovie() {
         alt={movie.title}
       />
       <h4>Rating: {movie.vote_average}</h4>
-      <h5>Release Date: {movie.release_date}</h5>
+      <h4>Release Date: {movie.release_date}</h4>
       <br></br>
-      <h6>Overview</h6>
+      <h4>Overview:</h4>
       <p>{movie.overview}</p>
     </div>
   )
