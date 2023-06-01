@@ -35,7 +35,7 @@ https://trello.com/invite/b/ukFn3CNl/ATTI0741a679adb3bedf668e92cc54b5fc44670DCFD
 
 # Getting Started:
 
-[MovieLovers](https://https://movielovers13.netlify.app/)
+[MovieLovers](https://movielovers13.netlify.app/)
 
 # Additional Sources
 
